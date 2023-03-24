@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Shadow&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400;1,600;1,700&display=swap');
+
+* {
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    margin: 0;
+    background-color: wheat;
+}
+
+#header{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    width: 100%;
+    height: 70px;
+    /* margin-left: auto;
+    margin-right: auto; */
+    justify-content: left;
+    min-width: 1200px;
+    background-color: white;
+}
+
+.home-function {
+    line-height: 70px;
+    font-size: 16px;
+    padding-left: 40px;
+    color: black;
+    opacity: 0.9;
+    margin-top: 0;
+}
+.home-function:hover {
+    color: #47bdec;
+    cursor: pointer;
+}
+.login {
+    display: flex;
+    align-items: center;
+    padding-right: 10px;
+    padding-left: 10px;
+    line-height: 50px;
+    color: #47bdec;
+    font-size: 16px;
+    position: absolute;
+    right: 240px;
+    top:10px;
+    
+}
+
+.sign-up {
+    display: flex;
+    align-items: center;
+    padding-right: 10px;
+    padding-left: 10px;
+    font-size: 16px;
+    color: #47bdec;
+    line-height: 50px;
+    position: absolute;
+    right: 60px;
+    top:10px;
+    border: 1px solid #47bdec;
+    border-radius: 4px;
+}
+
+.login:hover {
+    background-color: #47bdec;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: 0.3s;
+}
+
+.sign-up:hover {
+    background-color: #47bdec;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.img-hotel{
+    display: flex;
+    width: 80%;
+    height: 300px;
+    background-color: azure;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 6px 2px;
+}
+
+.img-contain{
+    display: grid;
+    width: 100%;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+    gap:8px;
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 6px 2px;
+}
+
+.big-img{
+    background-image: url(./img/ezgif-5-78b9ef744a.jpg);
+    background-size: 100% 300px;
+}
+.big-img:hover{
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.small-img{
+    display: grid;
+    width: 100%;
+    height: 100%;
+    grid-template-rows: 1fr 1fr;
+    gap: 8px;
+}
+
+.sub1-img1{
+    background-image: url(./img/ezgif-5-c8d0d3fe14.jpg);
+    background-size: 100% 100%;
+    
+}
+.sub1-img1:hover{
+    opacity: 0.7;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.sub1-img2{
+    background-image: url(./img/ezgif-5-c8d0d3fe14.jpg);
+    background-size: 100% 100%;
+}
+.sub1-img2:hover{
+    opacity: 0.7;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.sub2-img1{
+    background-image: url(./img/ezgif-5-78b9ef744a.jpg);
+    background-size: 100% 100%;
+    
+}
+.sub2-img1:hover{
+    opacity: 0.7;
+    cursor: pointer;
+    transition: 0.2s;
+
+}
+.sub2-img2{
+    background-image: url(./img/258108434.jpg);
+    background-size: 100% 100%;
+}
+.sub2-img2:hover{
+    opacity: 0.7;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.sub3-img1{
+    background-image: url(./img/258108639.jpg);
+    background-size: 100% 100%;
+    
+}
+.sub3-img1:hover{
+    opacity: 0.7;
+    cursor: pointer;
+    transition: 0.2s;
+
+}
+.sub3-img2{
+    background-image: url(./img/181459640.jpg);
+    background-size: 100% 100%;
+}
+.sub3-img2:hover{
+    opacity: 0.7;
+    cursor: pointer;
+    transition: 0.2s;
+
+}
